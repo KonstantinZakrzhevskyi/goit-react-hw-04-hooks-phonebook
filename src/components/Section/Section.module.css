@@ -1,0 +1,16 @@
+.section {
+  width: 800px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  box-shadow: 10px 10px 10px rgba(97, 8, 8, 0.568),
+    -10px 10px 10px rgba(97, 8, 8, 0.568);
+}
+
+.section__title {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(77, 6, 47);
+  border-bottom: 4px solid rgb(139, 17, 37);
+}
