@@ -7,8 +7,6 @@ function ContactForm({ onSubmit }) {
   const [number, setNumber] = useState('');
 
   const handleInputChange = e => {
-    // console.log(e.currentTarget.name);
-
     const { name, value } = e.currentTarget;
 
     switch (name) {
